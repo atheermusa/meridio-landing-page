@@ -28,11 +28,11 @@
   },
   "mainHero": {
     "title": "Meridio",
-    "subtitle": "Tagline",
+    "subtitle": "",
     "description": "We want people to spend less time meal prepping and more time doing things they love. Meridio is a meal preparation platform that connects people with cooks in their city. Meridio enables cooks to prepare authentic and varied meals from the comfort of their own home, share their culture with others and become financially independent.",
     "img": "/assets/images/cook.jpeg",
     "primaryAction": {
-      "text": "Get started",
+      "text": "Register your interest",
       "href": "www.google.com"
     },
     "secondaryAction": {
@@ -41,7 +41,7 @@
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Meridio landing page 2021",
     "items": [
       {
         "title": "A plug n play template",
