@@ -9,17 +9,8 @@
       "href": "howItWorks"
     },
     {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
-    },
-    {
-      "name": "About",
-      "href": "about"
+      "name": "About Us",
+      "href": "aboutUs"
     }
   ],
   "callToAction": {
@@ -56,29 +47,18 @@
     ]
   },
   "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+    "title": "About Us",
+    "description": "This sentence could be a little summary about us, I wouldn't really know what we can place here but we always have the option of removing it!",
     "items": [
       {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "name": "Tereza Rusova",
+        "description": "Short description can include what you studied at uni, mentioning Kings and what you're currently up to. Potentially some interests too",
+        "icon": "/assets/images/Tereza.jpeg"
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
-      },
-      {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "name": "Atheer Musa",
+        "description": "Short description can include what I studied at uni, mentioning Kings and what I'm currently up to. Potentially some interests too",
+        "icon": "/assets/images/Atheer.jpeg"
       }
     ]
   },
