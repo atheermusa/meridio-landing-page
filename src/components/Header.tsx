@@ -59,10 +59,10 @@ const Menu = () => {
                 </Link>
               ))}
               <a
-                href="#"
+                href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO"
                 className={`font-medium text-primary hover:text-secondary`}
               >
-                Call to action
+                Sign Up
               </a>
             </div>
           </nav>
