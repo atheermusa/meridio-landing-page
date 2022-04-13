@@ -20,8 +20,11 @@ const HowItWorks = () => {
           ))}
         </h1>
         <Divider />
+        <p className="mt-4 px-4 max-w-2xl text-center text-xl text-gray-500 lg:mx-auto">
+          {howItWorks.description}
+        </p>
         <div className={`flex flex-wrap`}>
-          <div className={`w-5/6 sm:w-1/2 p-6 mt-20`}>
+          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
             <h3
               className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
             >
