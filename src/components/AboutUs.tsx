@@ -21,25 +21,23 @@ const AboutUs = () => {
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {featuresList.map((feature) => (
               <div key={feature.name} className="relative flex">
-                  <div
-                    className={`absolute flex items-center justify-center h-24 w-24 rounded-md bg-background text-tertiary border-primary border-4`}
-                  >
-                    <img
-                      className={`inline-block`}
-                      src={feature.icon}
-                      alt={feature.name}
-                    />
-                  </div>
-                  <div className='mt-2 ml-16 pl-16'>
+                <div
+                  className={`absolute flex items-center justify-center h-24 w-24 rounded-md bg-background text-tertiary border-primary border-4`}
+                >
+                  <img
+                    className={`inline-block`}
+                    src={feature.icon}
+                    alt={feature.name}
+                  />
+                </div>
+                <div className="mt-2 ml-16 pl-16">
                   <p className="text-xl leading-6 font-medium text-gray-900">
                     {feature.name}
                   </p>
-                  <p className="text-base text-gray-400 italic">
-                    Co-founder
-                  </p>
-                <dd className="text-base text-gray-500">
-                  {feature.description}
-                </dd>
+                  <p className="text-base text-gray-400 italic">Co-founder</p>
+                  <dd className="text-base text-gray-500">
+                    {feature.description}
+                  </dd>
                 </div>
               </div>
             ))}

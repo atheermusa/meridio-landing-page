@@ -2,14 +2,13 @@ import React from 'react';
 
 // import About from '../components/About';
 // import Analytics from '../components/Analytics';
-import Canvas from '../components/Canvas';
 import AboutUs from '../components/AboutUs';
+import Canvas from '../components/Canvas';
 import Header from '../components/Header';
 import HowItWorks from '../components/HowItWorks';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
-import { Features } from '@headlessui/react/dist/utils/render';
 // import Pricing from '../components/Pricing';
 
 const App = () => {
