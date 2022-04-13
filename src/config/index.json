@@ -5,8 +5,8 @@
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "How It Works",
+      "href": "howItWorks"
     },
     {
       "name": "Features",
@@ -40,18 +40,18 @@
       "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
     }
   },
-  "product": {
-    "title": "Meridio landing page 2021",
+  "howItWorks": {
+    "title": "How it works",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "Cook User Journey",
+        "description": "Copy briefly outlining the user flow we envision for cooks on the platform. I think we can emphasise how about how simple and quick it can be and how anyone can do it!",
+        "img": "/assets/images/cookUserFlow.png"
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
+        "title": "Customer User Journey",
+        "description": "Copy briefly outlining the user flow we envision for customers on the platform. I think we can emphasise how about how simple and quick it can be and how anyone can do it!",
+        "img": "/assets/images/customerUserFlow.png"
       }
     ]
   },
