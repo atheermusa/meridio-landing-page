@@ -33,6 +33,7 @@
   },
   "howItWorks": {
     "title": "How it works",
+    "description": "Copy to briefly explain what the service is, maybe some of our aspirations of what the platform and prodcut will look like. We can also do another CTA for people to register their interest to be informed on any updates!",
     "items": [
       {
         "title": "Cook User Journey",
