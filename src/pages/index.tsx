@@ -1,15 +1,15 @@
 import React from 'react';
 
 // import About from '../components/About';
-import Analytics from '../components/Analytics';
+// import Analytics from '../components/Analytics';
 import Canvas from '../components/Canvas';
 // import Features from '../components/Features';
 import Header from '../components/Header';
-// import LazyShow from '../components/LazyShow';
+import HowItWorks from '../components/HowItWorks';
+import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 // import Pricing from '../components/Pricing';
-// import Product from '../components/Product';
 
 const App = () => {
   return (
@@ -25,29 +25,28 @@ const App = () => {
         </div>
         <MainHeroImage />
       </div>
-      <Canvas />
-      {/* <LazyShow>
+      <LazyShow>
         <>
-          <Product />
+          <HowItWorks />
           <Canvas />
         </>
       </LazyShow>
-      <LazyShow>
+      {/* <LazyShow>
         <>
           <Features />
           <Canvas />
         </>
-      </LazyShow>
-      <LazyShow>
-        <Pricing />
-      </LazyShow>
-      <LazyShow>
+      </LazyShow> */}
+      {/* <LazyShow> */}
+      {/* <Pricing /> */}
+      {/* </LazyShow> */}
+      {/* <LazyShow>
         <>
           <Canvas />
           <About />
         </>
       </LazyShow> */}
-      <Analytics />
+      {/* <Analytics /> */}
     </div>
   );
 };
