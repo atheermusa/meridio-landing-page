@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { AiOutlineArrowLeft, AiOutlineArrowRight } from 'react-icons/ai';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 
@@ -35,7 +36,7 @@ const HowItWorks = () => {
             </h3>
             <p className={`text-gray-600`}>{cookFlow?.description}</p>
           </div>
-          <div className={`w-full sm:w-1/2 p-6 flex`}>
+          <div className={`w-full sm:w-1/2 p-6 flex flex-col items-center`}>
             <Carousel
               showThumbs={false}
               showIndicators={false}
@@ -62,6 +63,11 @@ const HowItWorks = () => {
               src={cookFlow?.img}
               alt={cookFlow?.title}
             /> */}
+            <div className="flex w-full lg:w-1/3 items-center justify-around">
+              <AiOutlineArrowLeft />
+              <p className={`text-gray-600`}>Slide for more</p>
+              <AiOutlineArrowRight />
+            </div>
           </div>
         </div>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
