@@ -9,15 +9,6 @@ const HowItWorks = () => {
   const { howItWorks } = config;
   const [cookFlow, customerFlow] = howItWorks.items;
 
-
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  }
-
   return (
     <section className={`bg-background py-8`} id="howItWorks">
       <div className={`container mx-auto m-8`}>
