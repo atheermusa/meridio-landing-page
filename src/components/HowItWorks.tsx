@@ -2,10 +2,21 @@ import React from 'react';
 
 import config from '../config/index.json';
 import Divider from './Divider';
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from 'react-responsive-carousel';
 
 const HowItWorks = () => {
   const { howItWorks } = config;
   const [cookFlow, customerFlow] = howItWorks.items;
+
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  }
 
   return (
     <section className={`bg-background py-8`} id="howItWorks">
@@ -33,11 +44,29 @@ const HowItWorks = () => {
             <p className={`text-gray-600`}>{cookFlow?.description}</p>
           </div>
           <div className={`w-full sm:w-1/2 p-6 flex`}>
-            <img
+            <Carousel
+            showThumbs={false}
+            showIndicators={false}
+            showStatus={false}
+            emulateTouch={true}
+            showArrows={false}
+            >
+              <div className="h-6/6 w-full flex">
+                <img src="/assets/images/cookUserFlowOne.png" className='ml-11 -mr-11' />
+                <img src="/assets/images/cookUserFlowTwo.png" className='-mr-11'/>
+                <img src="/assets/images/cookUserFlowThree.png" />
+
+              </div>
+              <div className="h-6/6">
+              </div>
+              <div className="h-6/6">
+              </div>
+            </Carousel> 
+            {/* <img
               className="h-6/6 self-center"
               src={cookFlow?.img}
               alt={cookFlow?.title}
-            />
+            /> */}
           </div>
         </div>
         <div className={`flex flex-wrap flex-col-reverse sm:flex-row`}>
