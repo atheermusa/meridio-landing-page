@@ -1,9 +1,10 @@
 import React from 'react';
 
-import Divider from './Divider';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
+
 import config from '../config/index.json';
+import Divider from './Divider';
 
 const HowItWorks = () => {
   const { howItWorks } = config;
@@ -43,12 +44,14 @@ const HowItWorks = () => {
               showArrows={false}
             >
               <div className="h-6/6 w-full flex">
-                <img 
+                <img
                   src="/assets/images/cookUserFlowOne.png"
-                  className='ml-11 -mr-11' />
+                  className="ml-11 -mr-11"
+                />
                 <img
                   src="/assets/images/cookUserFlowTwo.png"
-                  className='-mr-11' />
+                  className="-mr-11"
+                />
                 <img src="/assets/images/cookUserFlowThree.png" />
               </div>
               <div className="h-6/6"></div>
