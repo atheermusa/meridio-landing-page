@@ -29,11 +29,11 @@ const HowItWorks = () => {
         </p>
         <div className={`flex flex-wrap`}>
           <div className={`w-full sm:w-1/2 p-6 mt-20`}>
-            <h3
+            <h2
               className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
             >
               {cookFlow?.title}
-            </h3>
+            </h2>
             <p className={`text-gray-600`}>{cookFlow?.description}</p>
           </div>
           <div className={`w-full sm:w-1/2 p-6 flex flex-col items-center`}>
@@ -47,13 +47,18 @@ const HowItWorks = () => {
               <div className="h-6/6 w-full flex">
                 <img
                   src="/assets/images/cookUserFlowOne.png"
+                  alt="First steps are to register and submit a sample and menu proposal"
                   className="ml-11 -mr-11"
                 />
                 <img
                   src="/assets/images/cookUserFlowTwo.png"
+                  alt="Must then obtain license and setup an account"
                   className="-mr-11"
                 />
-                <img src="/assets/images/cookUserFlowThree.png" />
+                <img
+                  src="/assets/images/cookUserFlowThree.png"
+                  alt="prepare meals according to orders"
+                />
               </div>
               <div className="h-6/6"></div>
               <div className="h-6/6"></div>
