@@ -65,7 +65,7 @@ const HowItWorks = () => {
             /> */}
             <div className="flex w-full lg:w-1/3 items-center justify-around">
               <AiOutlineArrowLeft />
-              <p className={`text-gray-600`}>Slide for more</p>
+              <p className={`text-gray-600`}>Swipe for more</p>
               <AiOutlineArrowRight />
             </div>
           </div>
