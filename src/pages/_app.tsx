@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 
 import { AppProps } from 'next/app';
+import Head from 'next/head';
 import { useRouter } from 'next/router';
 import Script from 'next/script';
 
@@ -24,6 +25,12 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
 
   return (
     <>
+      <Head>
+        <title>Merideo Landing Page</title>
+        <meta name="keywords" content="Merideo Landing Page, meta, food" />
+        <meta name="author" content="Merideo" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
       {/* Global Site Tag (gtag.js) - Google Analytics */}
       <Script
         strategy="afterInteractive"
