@@ -26,3 +26,7 @@ a:hover {
 .content ul {
   @apply my-6;
 }
+
+.control-arrow {
+  background-color: gray !important;
+}
