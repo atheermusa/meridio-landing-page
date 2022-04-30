@@ -23,7 +23,7 @@
     "description": "Saving busy people time and enabling them to experience new cuisines by connecting them with authentic cooks in their area.",
     "img": "/assets/images/cook.jpeg",
     "primaryAction": {
-      "text": "Register your interest",
+      "text": "Register Now",
       "href": "www.google.com"
     },
     "secondaryAction": {
@@ -36,14 +36,17 @@
     "description": "Browse our website to discover new cuisines and pick your meals for the week. You can also learn about the people behind the food in their bio and speak to them about your unique preferences and needs. Our cooks need some time to prepare the food and source fresh ingredients so you might need to allow some time between your order and the delivery.",
     "items": [
       {
-        "title": "Cook User Journey",
-        "description": "Copy briefly outlining the user flow we envision for cooks on the platform. I think we can emphasise how about how simple and quick it can be and how anyone can do it!",
-        "img": "/assets/images/cookUserFlow.png"
+        "title": "Customer User Journey",
+        "descriptionOne": "Preparing home-cooked food for the week can take a long time and might be the last thing you want to do when you come home from work. “We're having pasta bolognese, again?” - we've all been there...",
+        "descriptionTwo": "There are talented chefs in your vicinity who are keen to share their amazing home-cooked meals with you, help you prepare food for the week to come, and enable you to experience new cuisines all at the same time.",
+        "descriptionThree": "Are you on board?",
+        "cta": "Sign up here"
       },
       {
-        "title": "Customer User Journey",
-        "description": "Copy briefly outlining the user flow we envision for customers on the platform. I think we can emphasise how about how simple and quick it can be and how anyone can do it!",
-        "img": "/assets/images/customerUserFlow.png"
+        "title": "Cook User Journey",
+        "descriptionOne": "We enable cooks to prepare authentic and varied meals from the comfort of their own home, share their culture with others and become financially independent.",
+        "descriptionTwo": "Are you passionate about making authentic food? ",
+        "cta": "Sign up here"
       }
     ]
   },
