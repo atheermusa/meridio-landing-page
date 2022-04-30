@@ -52,16 +52,16 @@
   },
   "features": {
     "title": "About Us",
-    "description": "This sentence could be a little summary about us, I wouldn't really know what we can place here but we always have the option of removing it!",
+    "description": "We’re two friends who met at King's College London and are passionate about entrepreneurship. We want to give people a platform to connect and bond over food.",
     "items": [
       {
         "name": "Tereza Rusova",
-        "description": "Short description can include what you studied at uni, mentioning Kings and what you're currently up to. Potentially some interests too",
+        "description": "I am passionate about food, connecting people and celebrating diversity. As a Londoner, I love how diverse my home is and want to enable people to experience new cuisines.",
         "icon": "/assets/images/Tereza.jpeg"
       },
       {
         "name": "Atheer Musa",
-        "description": "Short description can include what I studied at uni, mentioning Kings and what I'm currently up to. Potentially some interests too",
+        "description": "I’m a software engineer. I’m passionate about building products that empower people and enrich their lives.",
         "icon": "/assets/images/Atheer.jpeg"
       }
     ]
