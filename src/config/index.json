@@ -20,7 +20,7 @@
   "mainHero": {
     "title": "Merideo",
     "subtitle": "",
-    "description": "We want people to spend less time preparing meals for the week and more time doing things they love. Merideo is a meal prep platform that connects you with cooks in your area who prepare homemade meals for the week. Merideo enables cooks to prepare authentic and varied meals from the comfort of their own home, share their culture with others and become financially independent.",
+    "description": "Saving busy people time and enabling them to experience new cuisines by connecting them with authentic cooks in their area.",
     "img": "/assets/images/cook.jpeg",
     "primaryAction": {
       "text": "Register your interest",
@@ -33,7 +33,7 @@
   },
   "howItWorks": {
     "title": "How it works",
-    "description": "Copy to briefly explain what the service is, maybe some of our aspirations of what the platform and prodcut will look like. We can also do another CTA for people to register their interest to be informed on any updates!",
+    "description": "Browse our website to discover new cuisines and pick your meals for the week. You can also learn about the people behind the food in their bio and speak to them about your unique preferences and needs. Our cooks need some time to prepare the food and source fresh ingredients so you might need to allow some time between your order and the delivery.",
     "items": [
       {
         "title": "Cook User Journey",
