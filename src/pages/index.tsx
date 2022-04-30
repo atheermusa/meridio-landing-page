@@ -13,7 +13,7 @@ import MainHeroImage from '../components/MainHeroImage';
 
 const App = () => {
   return (
-    <div className={`bg-background grid gap-y-16 overflow-hidden`}>
+    <div className={`bg-background grid gap-y-8 overflow-hidden`}>
       <div className={`relative bg-background`}>
         <div className="max-w-7xl mx-auto">
           <div

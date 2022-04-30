@@ -27,7 +27,7 @@ const HowItWorks = () => {
           {howItWorks.description}
         </p>
         <div className={`flex flex-wrap justify-center`}>
-          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
+          <div className={`w-full sm:w-1/2 p-6 mt-16`}>
             <h2
               className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
             >
@@ -85,7 +85,7 @@ const HowItWorks = () => {
             </Carousel>
           </div>
         </div>
-        <div className="w-full h-1 bg-primary opacity-25"></div>
+        <div className="w-full h-1 bg-primary opacity-25 my-4"></div>
         <div
           className={`flex flex-wrap h-6/6 flex-col-reverse sm:flex-row justify-center`}
         >
@@ -131,7 +131,7 @@ const HowItWorks = () => {
               </div>
             </Carousel>
           </div>
-          <div className={`w-full sm:w-1/2 p-6 mt-20`}>
+          <div className={`w-full sm:w-1/2 p-6 mt-16`}>
             <div className={`align-middle`}>
               <h3
                 className={`text-3xl text-gray-800 font-bold leading-none mb-3`}
