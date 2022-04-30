@@ -33,19 +33,25 @@ const HowItWorks = () => {
             >
               {customerFlow?.title}
             </h2>
-            <p className={`text-gray-600 mb-1`}>{customerFlow?.descriptionOne}</p>
-            <p className={`text-gray-600 mb-1`}>{customerFlow?.descriptionTwo}</p>
-            <p className={`text-gray-600 mb-1`}>{customerFlow?.descriptionThree}</p>
-            <a href='https://pcmttx0aixz.typeform.com/to/DcqfdFGO'>
-            <p className="text-primary hover:underline">{customerFlow?.cta}</p>
+            <p className={`text-gray-600 mb-1`}>
+              {customerFlow?.descriptionOne}
+            </p>
+            <p className={`text-gray-600 mb-1`}>
+              {customerFlow?.descriptionTwo}
+            </p>
+            <p className={`text-gray-600 mb-1`}>
+              {customerFlow?.descriptionThree}
+            </p>
+            <a href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO">
+              <p className="text-primary hover:underline">
+                {customerFlow?.cta}
+              </p>
             </a>
           </div>
-          <div className={`w-full sm:w-1/2 max-w-lg p-6 flex flex-col items-center justify-around`}>
-            <Carousel
-              showThumbs={false}
-              showStatus={false}
-              emulateTouch={true}
-            >
+          <div
+            className={`w-full sm:w-1/2 max-w-lg p-6 flex flex-col items-center justify-around`}
+          >
+            <Carousel showThumbs={false} showStatus={false} emulateTouch={true}>
               <div className="h-6/6 w-full flex">
                 <img
                   src="/assets/images/customerUserFlow/customerStepOne.png"
@@ -53,25 +59,25 @@ const HowItWorks = () => {
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/customerUserFlow/customerStepTwo.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/customerUserFlow/customerStepThree.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/customerUserFlow/customerStepFour.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/customerUserFlow/customerStepFive.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
@@ -79,46 +85,46 @@ const HowItWorks = () => {
             </Carousel>
           </div>
         </div>
-        <div className='w-full h-1 bg-primary opacity-25'></div>
-        <div className={`flex flex-wrap h-6/6 flex-col-reverse sm:flex-row justify-center`}>
-        <div className={`w-full sm:w-1/2 p-6 max-w-lg flex flex-col items-center`}>
-            <Carousel
-              showThumbs={false}
-              showStatus={false}
-              emulateTouch={true}
-            >
-                            <div className="h-6/6 w-full flex">
+        <div className="w-full h-1 bg-primary opacity-25"></div>
+        <div
+          className={`flex flex-wrap h-6/6 flex-col-reverse sm:flex-row justify-center`}
+        >
+          <div
+            className={`w-full sm:w-1/2 p-6 max-w-lg flex flex-col items-center`}
+          >
+            <Carousel showThumbs={false} showStatus={false} emulateTouch={true}>
+              <div className="h-6/6 w-full flex">
                 <img
                   src="/assets/images/cookUserFlow/cookStepOne.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/cookUserFlow/cookStepTwo.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/cookUserFlow/cookStepThree.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/cookUserFlow/cookStepFour.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/cookUserFlow/cookStepFive.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
               </div>
               <div className="h-6/6">
-              <img
+                <img
                   src="/assets/images/cookUserFlow/cookStepSix.png"
                   alt="First steps are to register and submit a sample and menu proposal"
                 />
@@ -133,10 +139,12 @@ const HowItWorks = () => {
                 {cookFlow?.title}
               </h3>
               <p className={`text-gray-600 mb-1`}>{cookFlow?.descriptionOne}</p>
-            <p className={`text-gray-600 mb-1`}>{cookFlow?.descriptionTwo}</p>
-            <a href='https://pcmttx0aixz.typeform.com/to/DcqfdFGO'>
-            <p className="text-primary hover:underline">{customerFlow?.cta}</p>
-            </a>
+              <p className={`text-gray-600 mb-1`}>{cookFlow?.descriptionTwo}</p>
+              <a href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO">
+                <p className="text-primary hover:underline">
+                  {customerFlow?.cta}
+                </p>
+              </a>
             </div>
           </div>
         </div>
