@@ -23,9 +23,11 @@ const HowItWorks = () => {
           ))}
         </h1>
         <Divider />
-        <p className="mt-4 px-4 max-w-lg text-center text-xl text-gray-500 lg:mx-auto">
-          {howItWorks.description}
-        </p>
+        <div className="flex justify-center">
+          <p className="mt-4 px-4 max-w-lg text-center text-xl text-gray-500 lg:mx-auto">
+            {howItWorks.description}
+          </p>
+        </div>
         <div className={`flex flex-wrap justify-center`}>
           <div className={`w-full sm:w-1/2 p-6 mt-16`}>
             <h2
