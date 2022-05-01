@@ -9,7 +9,7 @@ import Divider from './Divider';
 const HowItWorks = () => {
   const { howItWorks } = config;
   const [customerFlow, cookFlow] = howItWorks.items;
-  const [customerSteps, cookSteps] = howItWorks.steps
+  const [customerSteps, cookSteps] = howItWorks.steps;
 
   return (
     <section className={`bg-background py-8`} id="howItWorks">
@@ -55,14 +55,12 @@ const HowItWorks = () => {
             className={`w-full sm:w-1/2 max-w-lg p-6 flex flex-col items-center justify-around`}
           >
             <Carousel showThumbs={false} showStatus={false} emulateTouch={true}>
-              {customerSteps && customerSteps.map((step) => (
-                <div key={step.id} className="h-6/6 w-full flex">
-                    <img
-                      src={step.src}
-                      alt={step.alt}
-                    />
-                </div>
-              ))}              
+              {customerSteps &&
+                customerSteps.map((step) => (
+                  <div key={step.id} className="h-6/6 w-full flex">
+                    <img src={step.src} alt={step.alt} />
+                  </div>
+                ))}
             </Carousel>
           </div>
         </div>
@@ -74,14 +72,12 @@ const HowItWorks = () => {
             className={`w-full sm:w-1/2 p-6 max-w-lg flex flex-col items-center`}
           >
             <Carousel showThumbs={false} showStatus={false} emulateTouch={true}>
-            {cookSteps && cookSteps.map((step) => (
-                <div key={step.id} className="h-6/6 w-full flex">
-                    <img
-                      src={step.src}
-                      alt={step.alt}
-                    />
-                </div>
-              ))}
+              {cookSteps &&
+                cookSteps.map((step) => (
+                  <div key={step.id} className="h-6/6 w-full flex">
+                    <img src={step.src} alt={step.alt} />
+                  </div>
+                ))}
             </Carousel>
           </div>
           <div className={`w-full sm:w-1/2 p-6 mt-16`}>
@@ -93,13 +89,13 @@ const HowItWorks = () => {
               </h3>
               <p className={`text-gray-600 mb-1`}>{cookFlow?.descriptionOne}</p>
               <p className={`text-gray-600 mb-1`}>
-              {cookFlow?.descriptionTwo}
-              <a href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO">
-                <span className="text-primary hover:underline">
-                  {cookFlow?.cta}
-                </span>
-              </a>
-            </p>
+                {cookFlow?.descriptionTwo}
+                <a href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO">
+                  <span className="text-primary hover:underline">
+                    {cookFlow?.cta}
+                  </span>
+                </a>
+              </p>
             </div>
           </div>
         </div>
