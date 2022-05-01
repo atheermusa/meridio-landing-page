@@ -9,6 +9,7 @@ import Divider from './Divider';
 const HowItWorks = () => {
   const { howItWorks } = config;
   const [customerFlow, cookFlow] = howItWorks.items;
+  const [customerSteps, cookSteps] = howItWorks.steps
 
   return (
     <section className={`bg-background py-8`} id="howItWorks">
@@ -43,47 +44,25 @@ const HowItWorks = () => {
             </p>
             <p className={`text-gray-600 mb-1`}>
               {customerFlow?.descriptionThree}
+              <a href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO">
+                <span className="text-primary hover:underline">
+                  {customerFlow?.cta}
+                </span>
+              </a>
             </p>
-            <a href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO">
-              <p className="text-primary hover:underline">
-                {customerFlow?.cta}
-              </p>
-            </a>
           </div>
           <div
             className={`w-full sm:w-1/2 max-w-lg p-6 flex flex-col items-center justify-around`}
           >
             <Carousel showThumbs={false} showStatus={false} emulateTouch={true}>
-              <div className="h-6/6 w-full flex">
-                <img
-                  src="/assets/images/customerUserFlow/customerStepOne.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/customerUserFlow/customerStepTwo.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/customerUserFlow/customerStepThree.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/customerUserFlow/customerStepFour.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/customerUserFlow/customerStepFive.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
+              {customerSteps && customerSteps.map((step) => (
+                <div key={step.id} className="h-6/6 w-full flex">
+                    <img
+                      src={step.src}
+                      alt={step.alt}
+                    />
+                </div>
+              ))}              
             </Carousel>
           </div>
         </div>
@@ -95,42 +74,14 @@ const HowItWorks = () => {
             className={`w-full sm:w-1/2 p-6 max-w-lg flex flex-col items-center`}
           >
             <Carousel showThumbs={false} showStatus={false} emulateTouch={true}>
-              <div className="h-6/6 w-full flex">
-                <img
-                  src="/assets/images/cookUserFlow/cookStepOne.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/cookUserFlow/cookStepTwo.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/cookUserFlow/cookStepThree.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/cookUserFlow/cookStepFour.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/cookUserFlow/cookStepFive.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
-              <div className="h-6/6">
-                <img
-                  src="/assets/images/cookUserFlow/cookStepSix.png"
-                  alt="First steps are to register and submit a sample and menu proposal"
-                />
-              </div>
+            {cookSteps && cookSteps.map((step) => (
+                <div key={step.id} className="h-6/6 w-full flex">
+                    <img
+                      src={step.src}
+                      alt={step.alt}
+                    />
+                </div>
+              ))}
             </Carousel>
           </div>
           <div className={`w-full sm:w-1/2 p-6 mt-16`}>
@@ -141,12 +92,14 @@ const HowItWorks = () => {
                 {cookFlow?.title}
               </h3>
               <p className={`text-gray-600 mb-1`}>{cookFlow?.descriptionOne}</p>
-              <p className={`text-gray-600 mb-1`}>{cookFlow?.descriptionTwo}</p>
+              <p className={`text-gray-600 mb-1`}>
+              {cookFlow?.descriptionTwo}
               <a href="https://pcmttx0aixz.typeform.com/to/DcqfdFGO">
-                <p className="text-primary hover:underline">
-                  {customerFlow?.cta}
-                </p>
+                <span className="text-primary hover:underline">
+                  {cookFlow?.cta}
+                </span>
               </a>
+            </p>
             </div>
           </div>
         </div>

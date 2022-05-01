@@ -40,14 +40,75 @@
         "descriptionOne": "Preparing home-cooked food for the week can take a long time and might be the last thing you want to do when you come home from work. “We're having pasta bolognese, again?” - we've all been there...",
         "descriptionTwo": "There are talented chefs in your vicinity who are keen to share their amazing home-cooked meals with you, help you prepare food for the week to come, and enable you to experience new cuisines all at the same time.",
         "descriptionThree": "Are you on board?",
-        "cta": "Sign up here"
+        "cta": " Sign up here"
       },
       {
         "title": "Cook User Journey",
         "descriptionOne": "We enable cooks to prepare authentic and varied meals from the comfort of their own home, share their culture with others and become financially independent.",
         "descriptionTwo": "Are you passionate about making authentic food? ",
-        "cta": "Sign up here"
+        "cta": " Sign up here"
       }
+    ],
+    "steps": [
+      [
+        {
+          "id": 0,
+          "src": "/assets/images/customerUserFlow/customerStepOne.png",
+          "alt": "Step One: Register for an account"
+        },
+        {
+          "id": 1,
+          "src": "/assets/images/customerUserFlow/customerStepTwo.png",
+          "alt": "Step Two: Pick a cuisine you want to try"
+        },
+        {
+          "id": 2,
+          "src": "/assets/images/customerUserFlow/customerStepThree.png",
+          "alt": "Step Three: Pick cook, recipes, number of meals and a delivery slot"
+        },
+        {
+          "id": 3,
+          "src": "/assets/images/customerUserFlow/customerStepFour.png",
+          "alt": "Step Four: Order and pay"
+        },
+        {
+          "id": 4,
+          "src": "/assets/images/customerUserFlow/customerStepFive.png",
+          "alt": "Step Five: Wait for your meals to be delivered!"
+        }
+      ],
+      [
+        {
+          "id": 0,
+          "src": "/assets/images/cookUserFlow/cookStepOne.png",
+          "alt": "Step One: Register your interest"
+        },
+        {
+          "id": 1,
+          "src": "/assets/images/cookUserFlow/cookStepTwo.png",
+          "alt": "Step Two: Submit a sample for quality control along with a menu proposal "
+        },
+        {
+          "id": 2,
+          "src": "/assets/images/cookUserFlow/cookStepThree.png",
+          "alt": "Step Three: Get licensing with local council and obtain hygiene certificate"
+        },
+        {
+          "id": 3,
+          "src": "/assets/images/cookUserFlow/cookStepFour.png",
+          "alt": "Step Four: Set up your profile , including menu, bio, availability"
+        },
+        {
+          "id": 4,
+          "src": "/assets/images/cookUserFlow/cookStepFive.png",
+          "alt": "Step Five: Hold tight for orders!"
+        },
+        {
+          "id": 5,
+          "src": "/assets/images/cookUserFlow/cookStepSix.png",
+          "alt": "Step Six: Prepare food, package, hand over one of our delivery drivers!"
+        }
+      ]
     ]
   },
   "features": {
