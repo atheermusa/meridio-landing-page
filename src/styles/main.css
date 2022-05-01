@@ -29,4 +29,6 @@ a:hover {
 
 .control-arrow {
   background-color: gray !important;
+  height: 25%;
+  margin-top:20% !important;
 }
