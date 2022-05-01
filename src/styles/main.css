@@ -28,7 +28,9 @@ a:hover {
 }
 
 .control-arrow {
-  background-color: gray !important;
+  background-color: #99a0a3 !important;
   height: 25%;
   margin-top:20% !important;
+  border-radius: 0.2rem;
+  width: 1.55rem;
 }
