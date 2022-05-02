@@ -20,7 +20,7 @@
   "mainHero": {
     "title": "Merideo",
     "subtitle": "",
-    "description": "Saving busy people time and enabling them to experience new cuisines by connecting them with authentic cooks in their area.",
+    "description": "Saving busy people time and enabling them to experience new cuisines by connecting them with authentic cooks in their community.",
     "img": "/assets/images/cook.jpeg",
     "primaryAction": {
       "text": "Register Now",
@@ -33,12 +33,12 @@
   },
   "howItWorks": {
     "title": "How it works",
-    "description": "Browse our website to discover new cuisines and pick your meals for the week. You can also learn about the people behind the food in their bio and speak to them about your unique preferences and needs. Our cooks need some time to prepare the food and source fresh ingredients so you might need to allow some time between your order and the delivery.",
+    "description": "Browse our website to discover new cuisines and pick your meals for the week. You can also learn about the people behind the food in their bio and speak to them about your unique preferences and needs. Choose your delivery slot and have your food delivered to you at your convenience.",
     "items": [
       {
         "title": "Customer User Journey",
         "descriptionOne": "Preparing home-cooked food for the week can take a long time and might be the last thing you want to do when you come home from work. “We're having pasta bolognese, again?” - we've all been there...",
-        "descriptionTwo": "There are talented chefs in your vicinity who are keen to share their amazing home-cooked meals with you, help you prepare food for the week to come, and enable you to experience new cuisines all at the same time.",
+        "descriptionTwo": "There are talented chefs in your community who are keen to share their amazing home-cooked meals with you, help you prepare food for the week to come, and enable you to experience new cuisines all at the same time.",
         "descriptionThree": "Are you on board?",
         "cta": " Sign up here"
       },
@@ -64,7 +64,7 @@
         {
           "id": 2,
           "src": "/assets/images/customerUserFlow/customerStepThree.png",
-          "alt": "Step Three: Pick cook, recipes, number of meals and a delivery slot"
+          "alt": "Step Three: Pick a cook"
         },
         {
           "id": 3,
@@ -75,6 +75,11 @@
           "id": 4,
           "src": "/assets/images/customerUserFlow/customerStepFive.png",
           "alt": "Step Five: Wait for your meals to be delivered!"
+        },
+        {
+          "id": 5,
+          "src": "/assets/images/customerUserFlow/customerStepSix.png",
+          "alt": "Step Six: Leave a review"
         }
       ],
       [
@@ -106,7 +111,7 @@
         {
           "id": 5,
           "src": "/assets/images/cookUserFlow/cookStepSix.png",
-          "alt": "Step Six: Prepare food, package, hand over one of our delivery drivers!"
+          "alt": "Step Six: Prepare food, pack, and hand over"
         }
       ]
     ]
@@ -117,7 +122,7 @@
     "items": [
       {
         "name": "Tereza Rusova",
-        "description": "I am passionate about food, connecting people and celebrating diversity. As a Londoner, I love how diverse my home is and want to enable people to experience new cuisines.",
+        "description": "Economist by background, I am passionate about food, connecting people and celebrating diversity. As a Londoner, I love how diverse my home is and want to enable people to experience new cuisines.",
         "icon": "/assets/images/Tereza.jpeg"
       },
       {
